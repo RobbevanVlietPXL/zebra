@@ -1,4 +1,21 @@
 {
   "projectName": "zebra",
-  "projectOwner": "RobbevanVlietPXL"
+  "projectOwner": "RobbevanVlietPXL",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "RobbevanVlietPXL",
+      "name": "RobbevanVlietPXL",
+      "avatar_url": "https://avatars.githubusercontent.com/u/116737494?v=4",
+      "profile": "https://github.com/RobbevanVlietPXL",
+      "contributions": [
+        "code"
+      ]
+    }
+  ]
 }
