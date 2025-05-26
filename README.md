@@ -12,3 +12,7 @@ Zebras hebben strepen
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+
+[![All Contributors](https://img.shields.io/github/all-contributors/RobbevanVlietPXL/zebra?color=ee8449&style=flat-square)](#contributors)
+
