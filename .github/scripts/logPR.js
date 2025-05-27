@@ -46,7 +46,7 @@ if (userPRs.length > 5) {
   });
 
   const message = {
-    from: `"GitHub Bot" <notify@yourproject.com>`,
+    from: `"GitHub Bot" <process.env.SMTP_USER>`,
     to: 'robbevanvliet@gmail.com',
     subject: `🎉 ${contributor} reached 5 PRs!`,
     text: `${contributor} has just submitted their 5th PR to the repo!`,
