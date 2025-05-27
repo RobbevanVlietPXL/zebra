@@ -7,6 +7,7 @@ on:
 jobs:
   log-pr:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -17,12 +18,16 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        run: npm install csv
+        run: npm install csv nodemailer
 
       - name: Log PR info
         run: node .github/scripts/logPR.js
         env:
           GITHUB_EVENT_PATH: ${{ github.event_path }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
 
       - name: Commit updated CSV
         run: |
