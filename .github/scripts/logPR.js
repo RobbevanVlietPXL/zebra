@@ -34,7 +34,7 @@ const userPRs = allLines.filter(line => line.includes(`,${contributor},`));
 console.log(`${contributor} has made ${userPRs.length} PRs.`);
 
 // Step 4: If 5 PRs, send email
-if (userPRs.length === 5) {
+if (userPRs.length < 5) {
   let transporter = nodemailer.createTransport({
     host: process.env.SMTP_HOST,
     port: parseInt(process.env.SMTP_PORT),
