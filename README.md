@@ -21,5 +21,5 @@ Zebras hebben strepen
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 
-[![All Contributors](https://img.shields.io/github/all-contributors/RobbevanVlietPXL/zebra?color=ee8449&style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/github/all-contributors/RobbevanVlietPXL/zebra)](#contributors)
 
