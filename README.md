@@ -1,8 +1,5 @@
-# zebra
-Zebras hebben strepen
 
-
-## Contributors
+## Our contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
